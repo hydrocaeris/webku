@@ -1,10 +1,15 @@
 import React from 'react';
-import Webku from './Webku';
+import Header from './components/Header';
+import Content from './components/Content';
+import Footer from './components/Footer';
 
+// Komponen App: menggabungkan komponen Header, Content, dan Footer menggunakan komposisi
 function App() {
   return (
-    <div className="App">
-      <Webku />
+    <div>
+      <Header />
+      <Content />
+      <Footer />
     </div>
   );
 }
